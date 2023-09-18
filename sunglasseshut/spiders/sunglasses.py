@@ -62,5 +62,9 @@ class SunglassesSpider(scrapy.Spider):
         excel_path = 'C:\\Users\\user\\PycharmProjects\\scraped_data\\sunglasses_dataForVideo.xlsx'
         df.to_excel(excel_path, index=False)
 
-# To run
+# SETUP
+# pip install scrapy
+# scrapy startproject [name]
+# cd [name]
+# To run:
 # Scrapy crawl sunglasses
